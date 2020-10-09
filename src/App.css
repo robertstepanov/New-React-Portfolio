@@ -32,7 +32,7 @@ h1 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -45,13 +45,23 @@ h1 {
   bottom: 0px;
   left: 0px;
   background-size: cover;
-  opacity: 0.9;
+  /* opacity: 0.9; */
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 100px;
+  width: 60%;
 }
 
 .title {
   position: relative;
-  font-size: 32px;
+  font-size: 48px;
   color: #fff;
+  width: 100%;
+  text-align: left;
 }
 
 .subtext-container {
@@ -65,4 +75,5 @@ h1 {
   position: relative;
   font-style: italic;
   font-size: 24px;
+  padding: 15px 50px;
 }
