@@ -1,11 +1,10 @@
-import React  from 'react'
-
-
+import { requirePropFactory } from '@material-ui/core';
+import React from 'react';
 
 export default function About() {
-    return (
+  return (
     <div>
-        <h1>About Me</h1>
+      <h1>About Me</h1>
     </div>
-    )
+  );
 }

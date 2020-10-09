@@ -20,13 +20,21 @@ export default function Nav() {
     <AppBar>
       <Toolbar className='toolbar'>
         <div>
-          <Typography>Robert Stepanov Portfolio</Typography>
+          <Typography variant='h6'>Robert Stepanov Portfolio</Typography>
         </div>
         <div>
-          <Button href='/'>Home</Button>
-          <Button href='/about'>About</Button>
-          <Button href='/work'>My Work</Button>
-          <Button href='/contact'>Contact</Button>
+          <Button className='nav-btn' href='/'>
+            Home
+          </Button>
+          <Button className='nav-btn' href='/about'>
+            About
+          </Button>
+          <Button className='nav-btn' href='/work'>
+            My Work
+          </Button>
+          <Button className='nav-btn' href='/contact'>
+            Contact
+          </Button>
         </div>
       </Toolbar>
     </AppBar>
